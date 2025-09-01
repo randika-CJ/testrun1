@@ -4,51 +4,7 @@
 
 **Course Code:** {COURSE_CODE} **Academic Year:** {ACADEMIC_YEAR} **Semester:** {SEMESTER}
 
-## 🔬 Research Areas
 
-<div align="center">
-
-### Explore Our Cutting-Edge Research Domains
-
-<!-- Interactive Research Areas Display -->
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 15px; margin: 20px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
-
-<svg width="100%" height="400" viewBox="0 0 1000 400" xmlns="http://www.w3.org/2000/svg" style="max-width: 1000px;">
-  <defs>
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#e3f2fd;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:1" />
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge> 
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-  
-  <!-- Background Pattern -->
-  <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-    <circle cx="20" cy="20" r="1" fill="rgba(255,255,255,0.1)"/>
-  </pattern>
-  <rect width="100%" height="100%" fill="url(#dots)"/>
-  
-  <!-- Main Title -->
-  <text x="500" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="url(#textGrad)" filter="url(#glow)">
-    Advanced Research Areas
-  </text>
-  
-  <!-- Animated Research Area Display -->
-  <text x="500" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#ffffff" id="research-display">
-    Industry AI - Legal Tech
-    <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite"/>
-  </text>
-  
-  <!-- Category Icons and Labels -->
-  <g transform="translate(100, 280)">
-    <circle cx="0" cy="0" r="25" fill="rgba(255,255,255,0.2)" stroke="#ffffff" stroke-width="2"/>
     <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">🤖</text>
     <text x="0" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="500" fill="#ffffff">AI Systems</text>
   </g>
